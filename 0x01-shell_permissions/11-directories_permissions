@@ -1,0 +1,2 @@
+#!/bib/bash
+chmod 444 -R --reference=file
