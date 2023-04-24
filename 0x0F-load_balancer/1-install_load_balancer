@@ -10,14 +10,15 @@ apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  smartcodez-frontend
+frontend  decreed-frontend
         bind *:80
         mode http
-        default_backend smartcodez-backend
-backend smartcodez-backend
+        default_backend decreed-backend
+backend decreed-backend
         balance roundrobin
-        server 52736-web-01 52.91.154.135:80 check
-        server 52736-web-02 54.87.207.246:80 check
+ mode http
+        server 139932-web-01 100.25.145.207:80 check
+        server 139932-web-02 34.207.253.122:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
