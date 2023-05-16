@@ -1,7 +1,10 @@
 Postmortem: Outage Caused by Misconfiguration
 
+![1684237778639](https://github.com/Decreedblocks/alx-system_engineering-devops/assets/99747488/9b1da793-ff65-46b8-9160-7c98726a2ff4)
+
 
 Issue Summary:
+
 On May 2, 2023, from 2:00 PM to 4:30 PM 	WAT, our company's web application experienced an outage that impacted all users. The service was completely down, preventing users from accessing any features or data. This resulted in a significant impact on our business, as it affected all customers, resulting in a 100% outage rate.
 
 Timeline:
